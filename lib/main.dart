@@ -13,10 +13,11 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      home: const HomePage(),
     );
   }
 }

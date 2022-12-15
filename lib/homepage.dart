@@ -1,4 +1,5 @@
 import 'package:day_fifteen_study/app_drawer.dart';
+import 'package:day_fifteen_study/bottom_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,6 +19,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
       ),
       drawer: const AppDrawer(),
+      bottomNavigationBar: const BottomBar(),
     );
   }
 }
